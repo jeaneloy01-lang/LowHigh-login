@@ -233,7 +233,7 @@ function carregarScriptSimple(duracaoDaKey)
     Header.Size = UDim2.new(1, -70, 0, 60); Header.Position = UDim2.new(0, 70, 0, 0); Header.BackgroundTransparency = 1
 
     local Title = Instance.new("TextLabel", Header)
-    Title.Position = UDim2.new(0, 10, 0, 12); Title.Size = UDim2.new(0, 200, 0, 20); Title.Text = "Low High Basic"; Title.TextColor3 = Theme.Accent; Title.Font = Enum.Font.GothamBold; Title.TextSize = 16; Title.TextXAlignment = Enum.TextXAlignment.Left; Title.BackgroundTransparency = 1
+    Title.Position = UDim2.new(0, 10, 0, 12); Title.Size = UDim2.new(0, 200, 0, 20); Title.Text = "Low High Simple"; Title.TextColor3 = Theme.Accent; Title.Font = Enum.Font.GothamBold; Title.TextSize = 16; Title.TextXAlignment = Enum.TextXAlignment.Left; Title.BackgroundTransparency = 1
 
     local SubTitle = Instance.new("TextLabel", Header)
     SubTitle.Position = UDim2.new(0, 10, 0, 32); SubTitle.Size = UDim2.new(0, 200, 0, 15); SubTitle.Text = "improve your aim in game"; SubTitle.TextColor3 = Color3.fromRGB(255, 255, 255); SubTitle.Font = Enum.Font.Gotham; SubTitle.TextSize = 11; SubTitle.TextXAlignment = Enum.TextXAlignment.Left; SubTitle.BackgroundTransparency = 1
